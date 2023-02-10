@@ -4,7 +4,7 @@ BAT_H = 100
 WIDTH = 700
 HEIGHT = 600
 BALL_SPEED = 2
-BAT_SPEED = 10
+BAT_SPEED = 9
 
 def square(x, y):
     return pygame.Rect(int(x), int(y), SIZE, SIZE)
