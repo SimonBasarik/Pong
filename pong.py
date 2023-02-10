@@ -1,8 +1,8 @@
 import pygame,random
 SIZE = 10
 BAT_H = 100
-WIDTH = 800
-HEIGHT = 700
+WIDTH = 700
+HEIGHT = 600
 BALL_SPEED = 2
 BAT_SPEED = 10
 
