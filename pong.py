@@ -3,7 +3,7 @@ SIZE = 10
 BAT_H = 100
 WIDTH = 700
 HEIGHT = 600
-BALL_SPEED = 2
+RYCHLOST_LOPTY = 2
 BAT_SPEED = 10
 
 def square(x, y):
@@ -54,8 +54,8 @@ def game():
 
 
 
-        ball_x += BALL_SPEED * movement[0]
-        ball_y += BALL_SPEED * movement[1]
+        ball_x += RYCHLOST_LOPTY * movement[0]
+        ball_y += RYCHLOST_LOPTY * movement[1]
 
         pressed = pygame.key.get_pressed()
         if pressed[pygame.K_UP]:
